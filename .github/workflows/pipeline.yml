@@ -2,7 +2,7 @@ name: Pipeline
 
 on: [push]
 env:
-  APPLICATION_NAME: app2
+  APPLICATION_NAME: app
 jobs:
   lint:
     runs-on: ubuntu-20.04
